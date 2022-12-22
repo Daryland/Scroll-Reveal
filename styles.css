@@ -1,1 +1,11 @@
-.reveal {position: relative;}
+.reveal {
+  position: relative;
+  transform: translate(144px);
+  opacity: 0;
+  transform: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
